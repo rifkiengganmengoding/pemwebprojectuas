@@ -25,6 +25,8 @@ const About = () => (
       </Row>
     </motion.div>
   </Container>
-);
+); 
+
+//yeay
 
 export default About;
