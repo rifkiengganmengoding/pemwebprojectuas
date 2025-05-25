@@ -32,8 +32,8 @@ const Contact = () => (
         </Col>
         <Col md={6}>
           <h5>Alamat Kami</h5>
-          <p>Jl. Raya No.123, Cirebon, Indonesia</p>
-          <p>📱 WhatsApp: 08xx-xxxx-xxxx</p>
+          <p>Jl. Ki Gede Wesaguna, RT.01/RW.01, Bode Lor, Kec. Plumbon, Kabupaten Cirebon, Jawa Barat 45155</p>
+          <p>📱 WhatsApp: 0853-2470-8702</p>
           <p>📧 Email: mitragriyaabadi@email.com</p>
           <p>🕒 Jam Operasional: Senin - Sabtu, 08.00 - 17.00</p>
         </Col>

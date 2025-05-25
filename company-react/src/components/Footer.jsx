@@ -57,7 +57,7 @@ const Footer = () => (
             <h5>Hubungi Kami</h5>
             <p><FaPhone style={{ marginRight: '8px' }} /> (+62) 123-4567-890</p>
             <p><FaEnvelope style={{ marginRight: '8px' }} /> info@mitragriyaabadi.com</p>
-            <p>Jl. Cirebon Raya No. 123, Cirebon, Jawa Barat</p>
+            <p>Jl. Ki Gede Wesaguna, RT.01/RW.01, Bode Lor, Kec. Plumbon, Kabupaten Cirebon, Jawa Barat 45155</p>
           </Col>
           <Col md={4}>
             <h5>Toko Online</h5>
@@ -95,7 +95,7 @@ const Footer = () => (
         </Row>
         <Row className="mt-3 text-center">
           <Col>
-            <small>© 2023 - Mitra Griya Abadi</small>
+            <small>© 2025 - Mitra Griya Abadi</small>
           </Col>
         </Row>
       </Container>
