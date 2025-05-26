@@ -49,7 +49,7 @@ const Footer = () => (
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.6 }}
-      style={{ backgroundColor: '#d32f2f', color: 'white', padding: '2rem 0' }}
+      style={{ backgroundColor: '#1a1a1a', color: 'white', padding: '2rem 0' }}
     >
       <Container>
         <Row>

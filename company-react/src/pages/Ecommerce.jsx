@@ -61,7 +61,12 @@ const Ecommerce = () => {
         <Row>
           {shops.map((shop, index) => (
             <Col md={3} sm={6} xs={12} key={index} className="mb-4">
-              <Card className="h-100 text-center">
+              <Card
+                className="h-100 text-center"
+                style={{ transition: 'transform 0.3s ease', cursor: 'pointer' }}
+                onMouseEnter={e => e.currentTarget.style.transform = 'scale(1.05)'}
+                onMouseLeave={e => e.currentTarget.style.transform = 'scale(1)'}
+              >
                 <a href={shop.url} target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none', color: 'inherit' }}>
                   <Card.Img variant="top" src={shop.img} alt={shop.name} style={{ maxHeight: '150px', objectFit: 'contain', padding: '1rem' }} />
                   <Card.Body>
