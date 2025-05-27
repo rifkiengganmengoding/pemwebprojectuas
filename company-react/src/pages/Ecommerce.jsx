@@ -11,10 +11,10 @@ import bg2 from '../assets/images/bgonlen2.jpg';
 import bg3 from '../assets/images/bgonlen3.jpg';
 
 const shops = [
-  { name: 'Shopee', url: 'https://shopee.co.id', img: ShopeeIcon },
-  { name: 'Lazada', url: 'https://www.lazada.co.id', img: LazadaIcon },
-  { name: 'Tokopedia', url: 'https://www.tokopedia.com', img: TokopediaIcon },
-  { name: 'TikTok Shop', url: 'https://www.tiktok.com/shop', img: TiktokShopIcon },
+  { name: 'Shopee', url: 'https://shopee.co.id/mitra_griya_abadi', img: ShopeeIcon },
+  { name: 'Lazada', url: 'https://www.lazada.co.id/shop/mitra-griya-abadi/?path=promotion-435817-0.htm&tab=promotion', img: LazadaIcon },
+  { name: 'Tokopedia', url: 'https://tr.ee/iz93EYJMk-', img: TokopediaIcon },
+  { name: 'TikTok Shop', url: 'https://tr.ee/iz93EYJMk-', img: TiktokShopIcon },
 ];
 
 const backgrounds = [bg1, bg2, bg3];

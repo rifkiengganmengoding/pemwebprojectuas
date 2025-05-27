@@ -64,19 +64,19 @@ const Footer = () => (
             <ul style={{ listStyleType: 'none', paddingLeft: 0 }}>
               <li>
                 <img src={ShopeeIcon} alt="Shopee" style={{ width: '20px', marginRight: '8px' }} />
-                <a href="https://shopee.co.id" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>Shopee</a>
+                <a href="https://shopee.co.id/mitra_griya_abadi" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>Shopee</a>
               </li>
               <li>
                 <img src={LazadaIcon} alt="Lazada" style={{ width: '20px', marginRight: '8px' }} />
-                <a href="https://www.lazada.co.id" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>Lazada</a>
+                <a href="https://www.lazada.co.id/shop/mitra-griya-abadi/?path=promotion-435817-0.htm&tab=promotion" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>Lazada</a>
               </li>
               <li>
                 <img src={TokopediaIcon} alt="Tokopedia" style={{ width: '20px', marginRight: '8px' }} />
-                <a href="https://www.tokopedia.com" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>Tokopedia</a>
+                <a href="https://www.tokopedia.com/mitragriyaabadi" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>Tokopedia</a>
               </li>
               <li>
                 <img src={TiktokShopIcon} alt="TikTok Shop" style={{ width: '20px', marginRight: '8px' }} />
-                <a href="https://www.tiktok.com/shop" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>TikTok Shop</a>
+                <a href="https://www.tokopedia.com/mitragriyaabadi" target="_blank" rel="noopener noreferrer" style={{ color: 'white' }}>TikTok Shop</a>
               </li>
             </ul>
           </Col>

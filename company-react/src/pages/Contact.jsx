@@ -33,7 +33,20 @@ const Contact = () => (
         <Col md={6}>
           <h5>Alamat Kami</h5>
           <p>Jl. Ki Gede Wesaguna, RT.01/RW.01, Bode Lor, Kec. Plumbon, Kabupaten Cirebon, Jawa Barat 45155</p>
-          <p>📱 WhatsApp: 0853-2470-8702</p>
+          <p>
+            📱 WhatsApp:{' '}
+            <span
+              onClick={() => window.open('https://wa.me/6285324708702', '_blank', 'noopener,noreferrer')}
+              style={{ fontWeight: 'bold', color: '#25D366', cursor: 'pointer', textDecoration: 'underline' }}
+              role="button"
+              tabIndex={0}
+              onKeyPress={(e) => {
+                if (e.key === 'Enter') window.open('https://wa.me/6285324708702', '_blank', 'noopener,noreferrer');
+              }}
+            >
+              0853-2470-8702
+            </span>
+          </p>
           <p>📧 Email: mitragriyaabadi@email.com</p>
           <p>🕒 Jam Operasional: Senin - Sabtu, 08.00 - 17.00</p>
         </Col>
