@@ -4,6 +4,7 @@ import Home from '../pages/Home';
 import About from '../pages/About';
 import Ecommerce from '../pages/Ecommerce';
 import Contact from '../pages/Contact';
+import UlasanPage from "../pages/UlasanPage";
 import ProductService from '../pages/ProductService';
 
 const AppRouter = () => (
@@ -13,6 +14,7 @@ const AppRouter = () => (
     <Route path="/ecommerce" element={<Ecommerce />} />
     <Route path="/product-service" element={<ProductService />} />
     <Route path="/contact" element={<Contact />} />
+    <Route path="/ulasan" element={<UlasanPage />} />
   </Routes>
 );
 

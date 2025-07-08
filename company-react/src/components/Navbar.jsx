@@ -38,6 +38,7 @@ const NavigationBar = () => {
             <Nav.Link as={Link} to="/product-service">Product/Service</Nav.Link>
             <Nav.Link as={Link} to="/ecommerce">Ecommerce</Nav.Link>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
+            <Nav.Link as={Link} to="/ulasan">Ulasan</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
