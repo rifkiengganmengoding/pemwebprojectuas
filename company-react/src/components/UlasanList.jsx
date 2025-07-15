@@ -1,21 +1,18 @@
 import React from "react";
 
-function UlasanList({ data, onEdit, onDelete }) {
+function UlasanList({ data }) {
+  if (data.length === 0) return <p>Belum ada ulasan.</p>;
+
   return (
-    <div>
-      <h2>Daftar Ulasan</h2>
-      <ul>
-        {data.map(u => (
-          <li key={u.id}>
-            <strong>{u.nama}</strong> ({u.rating}/5)<br />
-            {u.komentar}<br />
-            <button onClick={() => onEdit(u)}>Edit</button>
-            <button onClick={() => onDelete(u.id)}>Hapus</button>
-            <hr />
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul>
+      {data.map((u) => (
+        <li key={u.id} style={{ marginBottom: "15px", listStyle: "none" }}>
+          <strong>{u.nama}</strong> ({u.rating}/5)
+          <p>{u.komentar}</p>
+          <hr />
+        </li>
+      ))}
+    </ul>
   );
 }
 
